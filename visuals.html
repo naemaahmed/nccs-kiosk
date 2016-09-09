@@ -1,0 +1,139 @@
+<!-- Template edited by Naema Ahmed (@NaemaAhmed) -->
+<!-- Visuals page: thumbnails of all visuals and allows you to navigate a specific visual-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Explore NCCS Supercomputing</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style2.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body class = "body-with-nav navbar-style">
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">NASA Center for Climate Simulation</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="intro.html">Intro</a>
+                    </li>
+                    <li>
+                       <a href="explore.html">Explore</a>
+                    </li>
+                    <li>
+                        <a href="visuals.html">Visuals</a>
+                    </li>
+                    <li>
+                        <a href="success-stories.html">Stories</a>
+                    </li>
+                    <li>
+                        <a href="end.html">End</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- first visual video: clouds at 5km res -->
+                <div align="center">
+                <video autoplay loop>
+                 <source src="http://svs.gsfc.nasa.gov/vis/a000000/a003700/a003723/geos5_snow_storm2010hires_1920x1080.mp4" width="1024" height="552" type="video/mp4">
+                 Your browser does not support the video tag.
+                </video>
+                </div>
+                <div class="carousel-caption">
+                    <<a href="intro.html"><h2>Clouds</h2></a>
+                </div>
+            </div>
+            <div class="item">
+                <!-- second visual video: surface carbon monoxide -->
+                <div align="center">
+                <video autoplay loop>
+                 <source src="http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030640/geos_cosc_720p.mp4" width="1024" height="552" type="video/mp4">
+                 Your browser does not support the video tag.
+                </video>
+                </div>
+                <div class="carousel-caption">
+                    <h2>Carbon monoxide</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- second visual video: wind speeds -->
+                <div align="center">
+                <video autoplay loop>
+                 <source src="http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030642/geos_w500_720p.mp4">
+                 Your browser does not support the video tag.
+                </video>
+                </div>
+                <div class="carousel-caption">
+                    <h2>Wind Speeds</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Visualization Wall</h1>
+                <p><h5>The NCCS Data Exploration Theater features a 20-foot by 6-foot 10-inch multi-screen visualization wall, also known as a hyperwall. The NCCS visualization wall/hyperwall combines 15 55-inch high-definition LCD screens with very narrow bezels, resulting in an almost seamless surface of more than 31 million pixels.</h5></p>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Script to Activate the Carousel -->  
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+</html>
