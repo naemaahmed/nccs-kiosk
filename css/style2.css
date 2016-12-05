@@ -18,7 +18,8 @@ body {
     padding-top: 50px;
 }
 video{
-    width:90%
+    width:100%;
+    height:auto;
 }
 h1{
     font-family: 'Bungee', cursive;
@@ -44,12 +45,20 @@ h5{
     font-size: 16px;
     line-height: 150%;
 }
+h6{
+    /*caption*/
+    font-family: 'Open Sans', sans-serif;    
+    font-size: 16px;
+    line-height: 150%;
+    color: white;
+    background:rgba(0,0,0,0.5);
+}
 .navbar-style{
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Fjalla One', sans-serif; 
     font-size: 17px;
 }
 .carousel{
-    height: 75%;
+    height: 80%;
     background-color: white;
 }
 .item,
