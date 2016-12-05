@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta http-equiv="refresh" content="300">
+
     <title>Explore NCCS Supercomputing</title>
 
     <!-- Bootstrap Core CSS -->
@@ -47,9 +47,6 @@
                     <li>
                         <a href="success-stories.html">Stories</a>
                     </li>
-                    <li>
-                        <a href="end.html">End</a>
-                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -64,43 +61,95 @@
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
         </ol>
         <!-- Wrapper for Slides -->
         <div class="carousel-inner">
+
+            <!-- ************ 1: clouds ************** -->
             <div class="item active">
-                <!-- first visual video: clouds at 5km res -->
                 <div align="center">
-                <video autoplay loop>
-                 <source src="http://svs.gsfc.nasa.gov/vis/a000000/a003700/a003723/geos5_snow_storm2010hires_1920x1080.mp4" width="1024" height="552" type="video/mp4">
-                 Your browser does not support the video tag.
-                </video>
+                    <video autoplay loop>
+                        <source src="videos/clouds.mp4" width="1024" height="552" type="video/mp4"> Your browser does not support the video tag.
+                    </video>
                 </div>
                 <div class="carousel-caption">
-                    <<a href="intro.html"><h2>Clouds</h2></a>
+                    <h2>Clouds</h2>
+                    <h6> Global clouds are depicted by outgoing solar radiation (left) and outgoing longwave radiation (right) from 1m/1.5km. Credits: William Putman, NASA/GMAO.</h6>
                 </div>
             </div>
+
+            <!-- ************ 2: volcanoes ************** -->
             <div class="item">
-                <!-- second visual video: surface carbon monoxide -->
                 <div align="center">
                 <video autoplay loop>
-                 <source src="http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030640/geos_cosc_720p.mp4" width="1024" height="552" type="video/mp4">
+                 <source src="videos/volcanoes.mp4" width="1024" height="552" type="video/mp4">
                  Your browser does not support the video tag.
                 </video>
                 </div>
                 <div class="carousel-caption">
-                    <h2>Carbon monoxide</h2>
+                    <h2>Volcanoes</h2>
+                    <h6> Volcanoes worldwide over the period Jan. 2000 to Aug. 2014. Credits: William Putman, NASA/GMAO.</h6>
                 </div>
             </div>
+
+            <!-- ************ 3:  temperature anomalies ************** -->
             <div class="item">
-                <!-- second visual video: wind speeds -->
                 <div align="center">
-                <video autoplay loop>
-                 <source src="http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030642/geos_w500_720p.mp4">
-                 Your browser does not support the video tag.
-                </video>
+                    <video autoplay loop>
+                        <source src="http://portal.nccs.nasa.gov/datashare/g6dev/MOVIES_SC16/temp_anom-global-Ops6KM_R-1080p.mp4" width="1024" height="552" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
                 <div class="carousel-caption">
-                    <h2>Wind Speeds</h2>
+                    <h2>Temperature Anomalies</h2>
+                    <h6> 30-day running air temperature anomalies from the 1980-2010 climatology of MERRA-2 for the period from February through October 2016. The high resolution of this analysis allows us to see the details of record warmth that spread across the globe in 2016. Credits: William Putman, NASA/GMAO.</h6>
+                </div>
+            </div>
+
+            <!-- ************ 4: Carbon Dioxide ************** -->
+            <div class="item">
+                <div align="center">
+                    <video autoplay loop>
+                        <source src="http://portal.nccs.nasa.gov/datashare/g6dev/MOVIES_SC16/co2-globe-Ops6KM_R-1080p.mp4" width="1024" height="552" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="carousel-caption">
+                    <h2>Carbon Dioxide</h2>
+                    <h6> Global CO2 concentrations from May through Oct. 2016. In May, CO2 levels reached a global record high exceeding 404 parts per million. 2016 marks the first year where global CO2 concentrations will not drop below 400 PPM, a mark that will not be reached again without a dramatic reduction in global CO2 emissions. Credits: William Putman, NASA/GMAO.</h6>
+                </div>
+            </div>
+
+            <!-- ************ 5: Carbon Monoxide ************** -->
+            <div class="item">
+                <div align="center">
+                    <video autoplay loop>
+                        <source src="http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030640/geos_cosc_720p.mp4" width="1024" height="552" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="carousel-caption">
+                    <a href="http://svs.gsfc.nasa.gov/cgi-bin/details.cgi?aid=30640"><h2 style = "color: white">Carbon Monoxide</h2></a>
+                    <h6> Carbon monoxide concentrations at Earth’s surface from December 1-31, 2006. The CO seen here primarily comes from fires burning in South America and Africa, and industrial activities taking place in urban areas such as Europe, Asia, and the United States. Credits: William Putman, NASA/GMAO.</h6>
+                </div>
+            </div>
+
+            <!-- ************ 6: Winds Speeds ************** -->
+            <div class="item">
+                <div align="center">
+                    <video autoplay loop>
+                        <source src="http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030642/geos_w500_720p.mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="carousel-caption">
+                    <a href = "http://svs.gsfc.nasa.gov/cgi-bin/details.cgi?aid=30642"><h2 style = "color: white">Wind Speeds</h2></a>
+                    <h6> 500 mb wind speeds at 7-kilometer resolution from August 1 to November 30, 2006, ranging from 0 to 135 knots (0 to 155 mph). Credits: William Putman, NASA/GMAO.</h6>
+
                 </div>
             </div>
         </div>
@@ -112,7 +161,6 @@
             <span class="icon-next"></span>
         </a>
     </header>
-
     <!-- Page Content -->
     <div class="container">
         <div class="row">
