@@ -29,6 +29,20 @@ h2{
     font-size: 40px;
     background-color: black;
 }
+.button{
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    font-size: 40px;
+    background-color: black;
+    border: solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 22px;
+}
 h3{
     /*body*/
     font-family: 'Open Sans', sans-serif; 
